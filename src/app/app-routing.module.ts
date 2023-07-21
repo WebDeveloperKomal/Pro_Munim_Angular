@@ -6,6 +6,8 @@ import { ProMunimOTPComponent } from './Components/pro-munim-otp/pro-munim-otp.c
 import { OverviewFNComponent } from './Components/overview-fn/overview-fn.component';
 import { FeesandPaymentComponent } from './Components/feesand-payment/feesand-payment.component';
 import { HeaderComponent } from './Components/header/header.component';
+import { SidenavComponent } from './Components/sidenav/sidenav.component';
+
 
 const routes: Routes = [
   {
@@ -13,6 +15,9 @@ const routes: Routes = [
   },
 {
 path:"header" , component : HeaderComponent
+},
+{
+  path: "sidenav" , component : SidenavComponent
 },
   {
     path: "Pro_Munim_Login" , component:ProMunimLoginComponent

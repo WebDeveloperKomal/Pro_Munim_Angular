@@ -1,3 +1,55 @@
-<!-- <app-header></app-header> -->
 
-<router-outlet></router-outlet>
+<!-- <div class="container-fluid d-flex "  style="float: left;"><app-header></app-header>
+  <app-sidenav></app-sidenav>
+ 
+  <div class=" content" style="float: right; width:500px; height: 100%;background-color: red;margin-top: 200px;margin-left: 300px; ">
+  
+    <router-outlet></router-outlet>
+  </div></div> -->
+
+
+  <!-- <div class="container-fluid"> -->
+    <app-header></app-header>
+    <div class="content-container">
+      <app-sidenav></app-sidenav>
+      <div class="page-content">
+        <!-- Router outlet to display different page components -->
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  <!-- </div> -->
+<!-- <div class="container-fluid" >
+    <div class="row" >
+    <div class="d-flex flex-column justify-content-between col-auto bg-dark min-vh-100" >
+      <div>
+        <a class="text-white text-decoration-none d-flex align-item-center ms-4" >
+            <span class="fs-5" >Sidemenu</span>
+        </a>
+        <ul class="nav nav-pills flex-column" >
+            <li class="nav-item" >
+                <a href="#" class="nav-link active" area-curren="page" >Ative</a>
+            </li>
+
+        </ul>
+      </div>
+    </div>
+</div>
+</div> -->
+<!-- <nav id="sidebar" class="bg-light"> -->
+  <!-- <div class="sidebar-header"> -->
+    <!-- <h3>My Sidebar</h3> -->
+  <!-- </div> -->
+  <!-- <ul class="list-unstyled components">
+    <li>
+      <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+      <ul class="collapse list-unstyled" id="homeSubmenu">
+        <li><a href="#">Home 1</a></li>
+        <li><a href="#">Home 2</a></li>
+        <li><a href="#">Home 3</a></li>
+      </ul>
+    </li> -->
+    <!-- <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li> -->
+  <!-- </ul> -->
+<!-- </nav> -->

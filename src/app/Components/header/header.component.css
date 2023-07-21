@@ -1,0 +1,113 @@
+
+
+.navbar{
+    background-color: #3BB161;
+    position: relative;
+    /* height: 100px; */
+    
+    /* height: 100px; */
+}
+.div1 input{
+    position: relative;
+    width: 100%;
+    /* max-width: 400px; */
+    margin-left:00px;
+    /* width: 400px; */
+    /* height: 47px; */
+    padding: 5px 0px 5px 40px;
+    /* margin-left: 1100px; */
+    margin-top: 15px;
+    border-radius: 7px;
+    border: #3e7e52;
+    font-size: 18px; 
+    color: white;
+    background-color: #3e7e52;
+    position: relative;
+}
+
+.div1 ::placeholder {
+    color: white;
+    font-size: 16.2px;
+}
+
+
+.logo {
+    width: 120px;
+    height: 100px;
+    /* max-width: 100%; */
+    /* box-sizing: border-box; */
+    /* position: absolute; */
+    /* margin-left: 183px; */
+    /* margin-top: -11px; */
+    padding: 0px 0px;
+}
+
+.f_logo{
+    width: 140px;
+}
+
+.sub-nav{
+    background-color: #3e7e52;
+    /* margin-left: 1396px; */
+    width: 55px;
+    height: 55px;
+    padding: 6px 5px;
+    border-radius: 200px;
+    /* margin-top: -62px; */
+}
+.bi-bell-fill {
+    color: white;
+    padding-left: 7px;
+    margin-top: -1px;
+    margin-left: 4px;
+}
+
+
+.sub-nav1 {
+    background-color: #3e7e52;
+    margin-left: 8px;
+    width: 55px;
+    height: 55px;
+    padding: 7px 5px;
+    border-radius: 200px;
+    /* margin-top: -62px; */
+}
+
+.bi-person-fill {
+    color: white;
+    padding-left: 5px;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+/* form{
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 0px;
+} */
+ form select{
+    margin-top: 15px;
+    background-color: #3BB161;
+    border: none;
+    color: #fff;
+}
+.fa-search {
+    /* background-color: #3e7e52; */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    position: absolute;
+    left: 0;
+    /* margin-top: 20px; */
+    /* top: ; */
+}
+
+.div1 .input-group-text i {
+    font-size: 18px;
+}
+
+
+
+
+
+
